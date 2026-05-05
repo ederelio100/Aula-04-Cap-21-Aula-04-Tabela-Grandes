@@ -15,14 +15,14 @@
         text-align: center;
 
         }
-     tr , th, td{
-        text-align: center;
+     td,tr , th, td{
+        text-align: left;
         border: 1px  solid black;
         padding: 10px;
         
     }
     .maq{
-        text-align:center;
+        text-align:left;
         border: 1px;
 
     }
@@ -47,7 +47,21 @@
             background-color: rgb(126, 113, 113);
 
         }
-
+        .neg{
+            font-weight: bold ;
+        }
+        .d{
+            padding: 100px;
+        }
+        .di{
+            padding: 50px;
+        } 
+        .dl{
+            background-color: rgb(68, 68, 85);
+        }
+        .i{
+           font-style: italic; 
+        }  
 </style>
 
 </head>
@@ -55,7 +69,7 @@
   <table  >
     <caption> populaçao dos estados brasileiros</caption>
     <thead>
-        <tr>
+        <tr class="dl">
             <th>Estado</th>
             <th>populaçao</th>
             <th>Comando Ultilizado</th>
@@ -63,14 +77,14 @@
     </thead>
     <tbody>
         <tr>
-            <td>Acre</td>
-            <td>830.018</td>
-            <td>'negrito'e'destacado</td>
+            <td class="neg">Acre</td>
+            <td><mark> 830.018</mark></td>
+            <td>'<b>negrito </b>'e'<mark>destacado</mark></td>
         </tr> 
         <tr>
-            <td>Alagoas</td>
+            <td class="i">Alagoas</td>
             <td>3.365.351</td>
-            <td>'italico</td>
+            <td class="i">'italico'</td>
         </tr> 
         <tr>
             <td>Amapá</td>
@@ -93,12 +107,12 @@
             <td>abreviaçao</td>
         </tr> 
         <tr>
-            <td>Distrito Federal</td>
+            <td class="neg">Distrito Federal</td>
             <td>3.098.883</td>
-            <td>texto negrito</td>
+            <td class="neg">texto negrito</td>
         </tr> 
         <tr>
-            <td>"Espirito santo"</td>
+            <td>Espirito santo</td>
             <td>4.108.508</td>
             <td>citaçao curta</td>
         </tr> 
@@ -113,7 +127,7 @@
             <td>texto monoespaçado</td>
         </tr> 
         <tr>
-            <td>Mato Grosso</td>
+            <td class="di">Mato Grosso</td>
             <td>3.658.813</td>
             <td>texto pré-formatado</td>
         </tr> 
@@ -128,19 +142,19 @@
             <td>texto subscrito</td>
         </tr> 
         <tr>
-            <td>Rio de Janeiro</td>
+            <td class="d">Rio de Janeiro</td>
             <td>16.054.524</td>
             <td>citaçao em bloco</td>
         </tr> 
         <tr>
-            <td>Rio Grande do sul</td>
+            <td class="neg">Rio Grande do sul</td>
             <td>10.882.965</td>
-            <td>negrito</td>
+            <td class="neg">negrito</td>
         </tr> 
         <tr>
-            <td>Rondonia</td>
+            <td class="i" >Rondonia</td>
             <td>1.616.379</td>
-            <td>italico</td>
+            <td class="i">italico</td>
         </tr> 
         <tr>
             <td>Roraima</td>
